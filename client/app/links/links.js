@@ -8,7 +8,7 @@ angular.module('shortly.links', [])
         $scope.data.links = searchedLinks;
       })
       .catch(function(err) {
-        console.error('We have a freaking error!!!!', err);
+        console.error(err);
       });
   };
 
